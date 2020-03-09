@@ -1,0 +1,28 @@
+version: '2'
+services:
+  storecore:
+    image: tsfdsong/storecore
+    hostname: storecore
+    container_name: storecore
+    entrypoint: ["geth","--datadir","/root/.ethereum","--rpc", "--rpcapi", "web3,net,eth,personal,miner,contract", "--rpcport=8545", "--rpcaddr", "0.0.0.0","--rpcvhosts=*", "--bootnodes", "enode://32414288558e4d68adcec12d71dcf3f4bf08ddfd2d237f36e0868332f9a91c8c356c26417f92e64d91643a8ce0669366617dfd1ba1a573fc3ef9d446e8123ae7@106.14.136.219:30303"]
+    restart: on-failure
+    ports:
+      - "8545:8545"
+    volumes:
+      - "/home/user/.ethereum:/root/.ethereum"
+      
+  storeserver:
+    image: tsfdsong/storeserver
+    container_name: storeserver
+    restart: on-failure
+    links:
+      - storecore
+    ports:
+      - "0.0.0.0:23000:23000"
+    volumes:
+      - "./config:/root/config"
+      - "./logs:/root/logs"
+      - "/home/user/.ethereum/keystore:/root/.ethereum/keystore"
+    depends_on:
+      - storecore
+

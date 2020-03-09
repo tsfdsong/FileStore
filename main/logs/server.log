@@ -1,0 +1,393 @@
+2019-10-10T16:06:57.011+0800	info	main/handler.go:35	InitStoreContract user=0x54379E45339356f6F1817ed39a525C0874bE6109
+2019-10-10T16:07:01.140+0800	info	main/helper.go:452	InitStoreContract set tx code trx receipt: &{[129 128 89 237 163 148 16 150 49 62 55 92 7 246 23 22 237 234 207 253 147 64 187 43 104 75 116 54 161 67 196 181] 0 625303 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] [] [91 36 116 1 112 123 246 177 201 36 158 230 98 12 38 120 46 106 82 38 159 91 19 151 104 100 111 75 76 207 139 110] [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] 63943}
+2019-10-10T16:07:02.179+0800	info	main/helper.go:515	InitStoreContract save contract address trx receipt: &{[139 150 98 236 254 122 98 148 7 83 252 142 169 151 7 128 159 6 158 216 203 77 42 228 233 197 0 130 175 30 195 27] 0 44772 [0 0 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 0 0 0 0 0 0 0 0 0 64 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 0 32 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2] [0xc0002980b0] [220 55 6 130 33 224 130 147 222 130 34 196 251 240 95 26 54 180 83 109 164 55 155 242 80 55 177 203 184 160 163 60] [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] 44772}
+2019-10-10T16:07:02.179+0800	debug	main/cache.go:66	contract address cache put success, user=0x54379E45339356f6F1817ed39a525C0874bE6109 store contract address=0x536fe892973317Aec7c3cc6c2a5931d2eFfA3Fa6
+2019-10-10T16:07:02.179+0800	info	main/state_channel.go:366	RPC request parameter: CreateChannel 0x536fe892973317Aec7c3cc6c2a5931d2eFfA3Fa6
+2019-10-10T16:07:02.186+0800	error	main/state_channel.go:93	DefaultClient Do: Post http://192.168.50.6:24450/rpc: dial tcp 192.168.50.6:24450: connect: connection refused 
+
+2019-10-10T16:07:02.186+0800	error	main/helper.go:124	
+ http response: &{500 Post http://192.168.50.6:24450/rpc: dial tcp 192.168.50.6:24450: connect: connection refused } 
+
+
+2019-10-10T16:10:19.421+0800	info	main/handler.go:35	InitStoreContract user=0x54379E45339356f6F1817ed39a525C0874bE6109
+2019-10-10T16:10:19.423+0800	debug	main/cache.go:84	contract address cache get success, user=0x54379E45339356f6F1817ed39a525C0874bE6109 address=0x536fe892973317Aec7c3cc6c2a5931d2eFfA3Fa6
+2019-10-10T16:10:19.423+0800	info	main/state_channel.go:366	RPC request parameter: CreateChannel 0x536fe892973317Aec7c3cc6c2a5931d2eFfA3Fa6
+2019-10-10T16:10:26.305+0800	info	main/state_channel.go:394	Create channel:  8a686438a03c54e026ab5831a3d8c3cd7f9e831b4384030087127158d9b2ae6b
+2019-10-10T16:10:26.305+0800	debug	main/object_cache.go:94	object cache put success, user=0x54379E45339356f6F1817ed39a525C0874bE6109 container=8a686438a03c54e026ab5831a3d8c3cd7f9e831b4384030087127158d9b2ae6b
+2019-10-10T16:10:26.305+0800	info	main/helper.go:554	InitChannelState create channel: smart contract=0x536fe892973317Aec7c3cc6c2a5931d2eFfA3Fa6  container=8a686438a03c54e026ab5831a3d8c3cd7f9e831b4384030087127158d9b2ae6b
+
+2019-10-10T16:10:26.305+0800	info	main/helper.go:117	
+ http response: &{200  0x536fe892973317Aec7c3cc6c2a5931d2eFfA3Fa6} 
+
+
+2019-10-10T16:12:30.619+0800	info	main/handler.go:35	InitStoreContract user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6
+2019-10-10T16:12:32.732+0800	info	main/helper.go:452	InitStoreContract set tx code trx receipt: &{[22 70 156 174 120 222 185 176 32 124 56 159 172 169 195 139 24 68 224 232 150 77 230 169 222 92 21 234 208 215 222 10] 0 625303 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] [] [50 205 79 73 238 29 17 128 83 166 159 108 137 222 40 52 202 56 106 51 137 253 82 170 190 147 104 3 115 252 32 143] [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] 63943}
+2019-10-10T16:12:36.822+0800	info	main/helper.go:515	InitStoreContract save contract address trx receipt: &{[199 174 201 122 62 210 225 247 164 56 97 73 221 148 241 30 214 246 194 139 232 156 251 92 69 128 121 213 190 52 201 85] 0 44772 [0 0 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 0 0 0 0 0 0 0 64 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2] [0xc0002024d0] [51 242 35 218 19 189 25 163 57 216 251 151 123 4 123 11 77 67 59 16 250 94 0 240 234 70 248 50 79 195 114 85] [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] 44772}
+2019-10-10T16:12:36.823+0800	debug	main/cache.go:66	contract address cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 store contract address=0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C
+2019-10-10T16:12:36.823+0800	info	main/state_channel.go:366	RPC request parameter: CreateChannel 0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C
+2019-10-10T16:12:38.349+0800	info	main/state_channel.go:394	Create channel:  fc808e3c2d88c0db21cbe5b45b54a4193a3661c753a0156863944b18d8306e1d
+2019-10-10T16:12:38.350+0800	debug	main/object_cache.go:94	object cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 container=fc808e3c2d88c0db21cbe5b45b54a4193a3661c753a0156863944b18d8306e1d
+2019-10-10T16:12:38.350+0800	info	main/helper.go:554	InitChannelState create channel: smart contract=0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C  container=fc808e3c2d88c0db21cbe5b45b54a4193a3661c753a0156863944b18d8306e1d
+
+2019-10-10T16:12:38.350+0800	info	main/helper.go:117	
+ http response: &{200  0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C} 
+
+
+2019-10-10T16:12:47.224+0800	info	main/handler.go:99	Create bucket user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test
+2019-10-10T16:12:47.224+0800	info	main/state_channel.go:439	RPC GetIndexHash, container=fc808e3c2d88c0db21cbe5b45b54a4193a3661c753a0156863944b18d8306e1d
+2019-10-10T16:12:47.244+0800	info	main/state_channel.go:465	RPC GetIndexHash result:  
+2019-10-10T16:12:47.244+0800	info	main/helper.go:641	GetUserObjects userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=
+2019-10-10T16:12:47.245+0800	debug	main/object_cache.go:75	object cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash= indexfile={"user":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","buckets":{}}
+2019-10-10T16:12:47.245+0800	debug	main/helper.go:668	GetUserObjects  userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexcontent={"user":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","buckets":{}}
+2019-10-10T16:12:47.278+0800	error	main/helper.go:192	PutFile response: 200 OK
+
+2019-10-10T16:12:47.278+0800	error	main/helper.go:124	
+ http response: &{500 user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 create bucket=test failed, UpdateDHTAndContract upload file failed, Upload file  response, 200 OK } 
+
+
+2019-10-10T16:14:31.419+0800	info	main/handler.go:35	InitStoreContract user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6
+2019-10-10T16:14:31.441+0800	debug	main/cache.go:66	contract address cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 store contract address=0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C
+2019-10-10T16:14:31.441+0800	info	main/state_channel.go:366	RPC request parameter: CreateChannel 0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C
+2019-10-10T16:14:32.937+0800	info	main/state_channel.go:394	Create channel:  d152b4eb2e1266718d435218169533b84fe904c956b207dc87e5773c75fbd9b1
+2019-10-10T16:14:32.938+0800	debug	main/object_cache.go:94	object cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 container=d152b4eb2e1266718d435218169533b84fe904c956b207dc87e5773c75fbd9b1
+2019-10-10T16:14:32.938+0800	info	main/helper.go:554	InitChannelState create channel: smart contract=0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C  container=d152b4eb2e1266718d435218169533b84fe904c956b207dc87e5773c75fbd9b1
+
+2019-10-10T16:14:32.938+0800	info	main/helper.go:117	
+ http response: &{200  0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C} 
+
+
+2019-10-10T16:14:40.674+0800	info	main/handler.go:99	Create bucket user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test
+2019-10-10T16:14:40.675+0800	info	main/state_channel.go:439	RPC GetIndexHash, container=d152b4eb2e1266718d435218169533b84fe904c956b207dc87e5773c75fbd9b1
+2019-10-10T16:14:40.696+0800	info	main/state_channel.go:465	RPC GetIndexHash result:  
+2019-10-10T16:14:40.697+0800	info	main/helper.go:641	GetUserObjects userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=
+2019-10-10T16:14:40.697+0800	debug	main/object_cache.go:75	object cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash= indexfile={"user":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","buckets":{}}
+2019-10-10T16:14:40.697+0800	debug	main/helper.go:668	GetUserObjects  userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexcontent={"user":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","buckets":{}}
+2019-10-10T16:14:40.754+0800	info	main/helper.go:215	Put file response data=QmW6H9UbdUCYXUPyLTyw3BmcCvQ4FDidDDMkDxVYKAjtnf
+
+2019-10-10T16:14:40.754+0800	info	main/helper.go:782	UpdateDHTAndContract userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmW6H9UbdUCYXUPyLTyw3BmcCvQ4FDidDDMkDxVYKAjtnf 
+
+2019-10-10T16:14:40.754+0800	debug	main/helper.go:783	
+ UpdateDHTAndContract indexcontent={"user":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","buckets":{"test":{"name":"test","files":{},"folders":{},"index":[],"time":1570695280}}} 
+
+
+2019-10-10T16:14:40.754+0800	info	main/state_channel.go:405	RPC UpdateHash:  container=d152b4eb2e1266718d435218169533b84fe904c956b207dc87e5773c75fbd9b1 indexhash=QmW6H9UbdUCYXUPyLTyw3BmcCvQ4FDidDDMkDxVYKAjtnf
+2019-10-10T16:14:40.769+0800	info	main/state_channel.go:429	RPC Updatehash result:  
+2019-10-10T16:14:40.769+0800	debug	main/object_cache.go:75	object cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmW6H9UbdUCYXUPyLTyw3BmcCvQ4FDidDDMkDxVYKAjtnf indexfile={"user":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","buckets":{"test":{"name":"test","files":{},"folders":{},"index":[],"time":1570695280}}}
+2019-10-10T16:14:40.769+0800	info	main/helper.go:117	
+ http response: &{200  user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 create bucket=test success} 
+
+
+2019-10-10T16:14:52.990+0800	info	main/handler.go:176	Get bucket info user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test
+2019-10-10T16:14:52.990+0800	info	main/state_channel.go:439	RPC GetIndexHash, container=d152b4eb2e1266718d435218169533b84fe904c956b207dc87e5773c75fbd9b1
+2019-10-10T16:14:53.003+0800	info	main/state_channel.go:465	RPC GetIndexHash result:  QmW6H9UbdUCYXUPyLTyw3BmcCvQ4FDidDDMkDxVYKAjtnf
+2019-10-10T16:14:53.003+0800	info	main/helper.go:641	GetUserObjects userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmW6H9UbdUCYXUPyLTyw3BmcCvQ4FDidDDMkDxVYKAjtnf
+2019-10-10T16:14:53.004+0800	debug	main/object_cache.go:108	object cache get success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmW6H9UbdUCYXUPyLTyw3BmcCvQ4FDidDDMkDxVYKAjtnf indexfile={"user":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","buckets":{"test":{"name":"test","files":{},"folders":{},"index":[],"time":1570695280}}}
+2019-10-10T16:14:53.004+0800	info	main/helper.go:117	
+ http response: &{200  {"files":null,"dir":null}} 
+
+
+2019-10-10T16:15:43.734+0800	info	main/handler.go:260	Create file/dir user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test file=1.txt
+2019-10-10T16:15:43.735+0800	info	main/state_channel.go:439	RPC GetIndexHash, container=d152b4eb2e1266718d435218169533b84fe904c956b207dc87e5773c75fbd9b1
+2019-10-10T16:15:43.754+0800	info	main/state_channel.go:465	RPC GetIndexHash result:  QmW6H9UbdUCYXUPyLTyw3BmcCvQ4FDidDDMkDxVYKAjtnf
+2019-10-10T16:15:43.754+0800	info	main/helper.go:641	GetUserObjects userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmW6H9UbdUCYXUPyLTyw3BmcCvQ4FDidDDMkDxVYKAjtnf
+2019-10-10T16:15:43.754+0800	debug	main/object_cache.go:108	object cache get success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmW6H9UbdUCYXUPyLTyw3BmcCvQ4FDidDDMkDxVYKAjtnf indexfile={"user":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","buckets":{"test":{"name":"test","files":{},"folders":{},"index":[],"time":1570695280}}}
+2019-10-10T16:15:43.754+0800	info	main/handler.go:280	Create file/dir bodysize, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test file=1.txt size=32
+2019-10-10T16:15:43.816+0800	info	main/helper.go:215	Put file response data=QmWdE8V7isXW3GAyjXSGBMV9fLvQbTB4fhTV7P4gQErMHk
+
+2019-10-10T16:15:43.862+0800	info	main/helper.go:215	Put file response data=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+
+2019-10-10T16:15:43.862+0800	info	main/helper.go:782	UpdateDHTAndContract userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7 
+
+2019-10-10T16:15:43.862+0800	debug	main/helper.go:783	
+ UpdateDHTAndContract indexcontent={"user":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","buckets":{"test":{"name":"test","files":{"1.txt":{"name":"1.txt","hash":"QmWdE8V7isXW3GAyjXSGBMV9fLvQbTB4fhTV7P4gQErMHk","owner":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","ispublic":false,"time":1570695343,"size":32,"filetype":false}},"folders":{},"index":["1.txt"],"time":1570695280}}} 
+
+
+2019-10-10T16:15:43.862+0800	info	main/state_channel.go:405	RPC UpdateHash:  container=d152b4eb2e1266718d435218169533b84fe904c956b207dc87e5773c75fbd9b1 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-10T16:15:43.890+0800	info	main/state_channel.go:429	RPC Updatehash result:  
+2019-10-10T16:15:43.890+0800	debug	main/object_cache.go:75	object cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7 indexfile={"user":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","buckets":{"test":{"name":"test","files":{"1.txt":{"name":"1.txt","hash":"QmWdE8V7isXW3GAyjXSGBMV9fLvQbTB4fhTV7P4gQErMHk","owner":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","ispublic":false,"time":1570695343,"size":32,"filetype":false}},"folders":{},"index":["1.txt"],"time":1570695280}}}
+2019-10-10T16:15:43.890+0800	info	main/helper.go:117	
+ http response: &{200  user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 upload file=1.txt hash=QmWdE8V7isXW3GAyjXSGBMV9fLvQbTB4fhTV7P4gQErMHk success} 
+
+
+2019-10-10T16:18:11.990+0800	info	main/handler.go:345	Get file user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test file=1.txt
+2019-10-10T16:18:11.991+0800	info	main/state_channel.go:439	RPC GetIndexHash, container=d152b4eb2e1266718d435218169533b84fe904c956b207dc87e5773c75fbd9b1
+2019-10-10T16:18:12.014+0800	info	main/state_channel.go:465	RPC GetIndexHash result:  QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-10T16:18:12.014+0800	info	main/helper.go:641	GetUserObjects userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-10T16:18:12.014+0800	debug	main/object_cache.go:108	object cache get success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7 indexfile={"user":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","buckets":{"test":{"name":"test","files":{"1.txt":{"name":"1.txt","hash":"QmWdE8V7isXW3GAyjXSGBMV9fLvQbTB4fhTV7P4gQErMHk","owner":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","ispublic":false,"time":1570695343,"size":32,"filetype":false}},"folders":{},"index":["1.txt"],"time":1570695280}}}
+2019-10-10T16:18:12.014+0800	info	main/handler.go:361	Download file user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test hash=QmWdE8V7isXW3GAyjXSGBMV9fLvQbTB4fhTV7P4gQErMHk
+2019-10-10T16:18:12.014+0800	info	main/helper.go:301	Get file URL: http://192.168.50.7:5001/api/v0/get?arg=QmWdE8V7isXW3GAyjXSGBMV9fLvQbTB4fhTV7P4gQErMHk
+2019-10-10T16:18:12.026+0800	info	main/handler.go:369	Download file success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test hash=QmWdE8V7isXW3GAyjXSGBMV9fLvQbTB4fhTV7P4gQErMHk
+2019-10-10T16:34:22.053+0800	info	main/handler.go:345	Get file user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test file=1.txt
+2019-10-10T16:34:22.060+0800	error	main/helper.go:636	GetUserObjects get user container: get container useuser=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 not exist
+
+2019-10-10T16:34:22.061+0800	error	main/helper.go:123	
+ http response: &{902 channel closed } 
+
+
+2019-10-10T16:34:29.928+0800	info	main/handler.go:35	InitStoreContract user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6
+2019-10-10T16:34:29.951+0800	debug	main/cache.go:66	contract address cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 store contract address=0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C
+2019-10-10T16:34:29.952+0800	info	main/state_channel.go:366	RPC request parameter: CreateChannel 0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C
+2019-10-10T16:34:31.762+0800	info	main/state_channel.go:394	Create channel:  a5b2aa97f361d7b19cdde61b0d645b62ad23ee6605e55de669ee88c310a28b0d
+2019-10-10T16:34:31.762+0800	debug	main/object_cache.go:94	object cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 container=a5b2aa97f361d7b19cdde61b0d645b62ad23ee6605e55de669ee88c310a28b0d
+2019-10-10T16:34:31.762+0800	info	main/helper.go:560	InitChannelState create channel: smart contract=0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C  container=a5b2aa97f361d7b19cdde61b0d645b62ad23ee6605e55de669ee88c310a28b0d
+
+2019-10-10T16:34:31.762+0800	info	main/helper.go:116	
+ http response: &{200  0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C} 
+
+
+2019-10-10T16:34:35.967+0800	info	main/handler.go:345	Get file user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test file=1.txt
+2019-10-10T16:34:35.967+0800	info	main/state_channel.go:439	RPC GetIndexHash, container=a5b2aa97f361d7b19cdde61b0d645b62ad23ee6605e55de669ee88c310a28b0d
+2019-10-10T16:34:35.981+0800	info	main/state_channel.go:465	RPC GetIndexHash result:  QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-10T16:34:35.981+0800	info	main/helper.go:647	GetUserObjects userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-10T16:34:35.982+0800	info	main/helper.go:300	Get file URL: http://192.168.50.7:5001/api/v0/get?arg=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-10T16:34:35.995+0800	error	main/helper.go:666	GetUserObjects unmarshal to objects: invalid character 'Q' looking for beginning of value
+
+2019-10-10T16:34:35.995+0800	error	main/helper.go:123	
+ http response: &{500 user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 get file/dir=1.txt failed, invalid character 'Q' looking for beginning of value } 
+
+
+2019-10-10T16:35:05.229+0800	info	main/handler.go:260	Create file/dir user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test file=1.txt
+2019-10-10T16:35:05.230+0800	info	main/state_channel.go:439	RPC GetIndexHash, container=a5b2aa97f361d7b19cdde61b0d645b62ad23ee6605e55de669ee88c310a28b0d
+2019-10-10T16:35:05.244+0800	info	main/state_channel.go:465	RPC GetIndexHash result:  QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-10T16:35:05.244+0800	info	main/helper.go:647	GetUserObjects userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-10T16:35:05.244+0800	info	main/helper.go:300	Get file URL: http://192.168.50.7:5001/api/v0/get?arg=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-10T16:35:05.250+0800	error	main/helper.go:666	GetUserObjects unmarshal to objects: invalid character 'Q' looking for beginning of value
+
+2019-10-10T16:35:05.250+0800	error	main/helper.go:123	
+ http response: &{500 user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 create file/dir=1.txt failed, invalid character 'Q' looking for beginning of value } 
+
+
+2019-10-10T16:46:03.208+0800	info	main/handler.go:260	Create file/dir user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test file=1.txt
+2019-10-10T16:46:03.209+0800	error	main/helper.go:639	GetUserObjects get user container: get container useuser=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 not exist
+
+2019-10-10T16:46:03.210+0800	error	main/helper.go:124	
+ http response: &{902 channel closed } 
+
+
+2019-10-10T16:46:07.403+0800	info	main/handler.go:35	InitStoreContract user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6
+2019-10-10T16:46:07.419+0800	debug	main/cache.go:66	contract address cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 store contract address=0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C
+2019-10-10T16:46:07.419+0800	info	main/state_channel.go:366	RPC request parameter: CreateChannel 0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C
+2019-10-10T16:46:08.826+0800	info	main/state_channel.go:394	Create channel:  fb8545c9ed0cb6c9e890c55b2dada93ac8f43c55dcd05c0d8d388fa1821171ef
+2019-10-10T16:46:08.826+0800	debug	main/object_cache.go:94	object cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 container=fb8545c9ed0cb6c9e890c55b2dada93ac8f43c55dcd05c0d8d388fa1821171ef
+2019-10-10T16:46:08.826+0800	info	main/helper.go:563	InitChannelState create channel: smart contract=0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C  container=fb8545c9ed0cb6c9e890c55b2dada93ac8f43c55dcd05c0d8d388fa1821171ef
+
+2019-10-10T16:46:08.826+0800	info	main/helper.go:117	
+ http response: &{200  0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C} 
+
+
+2019-10-10T16:46:13.448+0800	info	main/handler.go:260	Create file/dir user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test file=1.txt
+2019-10-10T16:46:13.456+0800	info	main/state_channel.go:439	RPC GetIndexHash, container=fb8545c9ed0cb6c9e890c55b2dada93ac8f43c55dcd05c0d8d388fa1821171ef
+2019-10-10T16:46:13.479+0800	info	main/state_channel.go:465	RPC GetIndexHash result:  QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-10T16:46:13.479+0800	info	main/helper.go:650	GetUserObjects userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-10T16:46:13.480+0800	info	main/helper.go:301	Get file URL: http://192.168.50.7:5001/api/v0/get?arg=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-10T16:46:13.493+0800	error	main/helper.go:669	GetUserObjects unmarshal to objects: invalid character 'Q' looking for beginning of value
+
+2019-10-10T16:46:13.494+0800	error	main/helper.go:124	
+ http response: &{500 user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 create file/dir=1.txt failed, invalid character 'Q' looking for beginning of value } 
+
+
+2019-10-10T16:51:07.826+0800	info	main/handler.go:345	Get file user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test file=1.txt
+2019-10-10T16:51:07.829+0800	error	main/helper.go:641	GetUserObjects get user container: get container useuser=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 not exist
+
+2019-10-10T16:51:07.829+0800	error	main/helper.go:124	
+ http response: &{902 channel closed } 
+
+
+2019-10-10T16:51:11.975+0800	info	main/handler.go:35	InitStoreContract user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6
+2019-10-10T16:51:11.995+0800	debug	main/cache.go:66	contract address cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 store contract address=0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C
+2019-10-10T16:51:11.995+0800	info	main/state_channel.go:366	RPC request parameter: CreateChannel 0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C
+2019-10-10T16:51:13.463+0800	info	main/state_channel.go:394	Create channel:  cf66492ed5aa83a9ee20ccbbf40bb411252aefcce330ee7e1c12ce947b8cb586
+2019-10-10T16:51:13.463+0800	debug	main/object_cache.go:94	object cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 container=cf66492ed5aa83a9ee20ccbbf40bb411252aefcce330ee7e1c12ce947b8cb586
+2019-10-10T16:51:13.463+0800	info	main/helper.go:565	InitChannelState create channel: smart contract=0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C  container=cf66492ed5aa83a9ee20ccbbf40bb411252aefcce330ee7e1c12ce947b8cb586
+
+2019-10-10T16:51:13.463+0800	info	main/helper.go:117	
+ http response: &{200  0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C} 
+
+
+2019-10-10T16:51:16.522+0800	info	main/handler.go:345	Get file user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test file=1.txt
+2019-10-10T16:51:16.522+0800	info	main/state_channel.go:439	RPC GetIndexHash, container=cf66492ed5aa83a9ee20ccbbf40bb411252aefcce330ee7e1c12ce947b8cb586
+2019-10-10T16:51:16.560+0800	info	main/state_channel.go:465	RPC GetIndexHash result:  QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-10T16:51:16.560+0800	info	main/helper.go:652	GetUserObjects userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-10T16:51:16.560+0800	info	main/helper.go:301	Get file URL: http://192.168.50.7:5001/api/v0/get?arg=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-10T16:51:16.570+0800	info	main/helper.go:329	Get context: QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7                                                      0000644 0000000 0000000 00000000527 13547570405 017063  0                                                                                                    ustar 00                                                                0000000 0000000                                                                                                                                                                        {"user":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","buckets":{"test":{"name":"test","files":{"1.txt":{"name":"1.txt","hash":"QmWdE8V7isXW3GAyjXSGBMV9fLvQbTB4fhTV7P4gQErMHk","owner":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","ispublic":false,"time":1570695343,"size":32,"filetype":false}},"folders":{},"index":["1.txt"],"time":1570695280}}}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+
+2019-10-10T16:51:50.820+0800	error	main/helper.go:671	GetUserObjects unmarshal to objects: invalid character 'Q' looking for beginning of value
+
+2019-10-10T16:51:50.821+0800	error	main/helper.go:124	
+ http response: &{500 user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 get file/dir=1.txt failed, invalid character 'Q' looking for beginning of value } 
+
+
+2019-10-10T17:02:09.003+0800	info	main/handler.go:35	InitStoreContract user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6
+2019-10-10T17:02:09.026+0800	debug	main/cache.go:66	contract address cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 store contract address=0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C
+2019-10-10T17:02:09.026+0800	info	main/state_channel.go:366	RPC request parameter: CreateChannel 0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C
+2019-10-10T17:02:10.558+0800	info	main/state_channel.go:394	Create channel:  18a53e3fa102b33ffc802aaf00781d5b432b3a041341ffc305bd011055bfd9db
+2019-10-10T17:02:10.559+0800	debug	main/object_cache.go:94	object cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 container=18a53e3fa102b33ffc802aaf00781d5b432b3a041341ffc305bd011055bfd9db
+2019-10-10T17:02:10.559+0800	info	main/helper.go:568	InitChannelState create channel: smart contract=0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C  container=18a53e3fa102b33ffc802aaf00781d5b432b3a041341ffc305bd011055bfd9db
+
+2019-10-10T17:02:10.559+0800	info	main/helper.go:116	
+ http response: &{200  0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C} 
+
+
+2019-10-10T17:02:17.801+0800	info	main/handler.go:345	Get file user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test file=1.txt
+2019-10-10T17:02:17.803+0800	info	main/state_channel.go:439	RPC GetIndexHash, container=18a53e3fa102b33ffc802aaf00781d5b432b3a041341ffc305bd011055bfd9db
+2019-10-10T17:02:17.823+0800	info	main/state_channel.go:465	RPC GetIndexHash result:  QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-10T17:02:17.823+0800	info	main/helper.go:655	GetUserObjects userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-10T17:02:17.823+0800	info	main/helper.go:300	Get file URL: http://192.168.50.7:5001/api/v0/get?arg=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-10T17:02:17.833+0800	info	main/helper.go:332	Get context: QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7                                                      0000644 0000000 0000000 00000000527 13547571632 017066  0                                                                                                    ustar 00                                                                0000000 0000000                                                                                                                                                                        {"user":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","buckets":{"test":{"name":"test","files":{"1.txt":{"name":"1.txt","hash":"QmWdE8V7isXW3GAyjXSGBMV9fLvQbTB4fhTV7P4gQErMHk","owner":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","ispublic":false,"time":1570695343,"size":32,"filetype":false}},"folders":{},"index":["1.txt"],"time":1570695280}}}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+
+2019-10-10T17:02:23.324+0800	error	main/helper.go:674	GetUserObjects unmarshal to objects: invalid character 'Q' looking for beginning of value
+
+2019-10-10T17:02:23.324+0800	error	main/helper.go:123	
+ http response: &{500 user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 get file/dir=1.txt failed, invalid character 'Q' looking for beginning of value } 
+
+
+2019-10-11T10:13:01.213+0800	info	main/handler.go:35	InitStoreContract user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6
+2019-10-11T10:13:01.236+0800	debug	main/cache.go:66	contract address cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 store contract address=0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C
+2019-10-11T10:13:01.236+0800	info	main/state_channel.go:366	RPC request parameter: CreateChannel 0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C
+2019-10-11T10:13:02.762+0800	info	main/state_channel.go:394	Create channel:  c594ac31da37c59fa91da36e9ae53e6559e0a7921aef1ecba82ed619df3c7c61
+2019-10-11T10:13:02.763+0800	debug	main/object_cache.go:94	object cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 container=c594ac31da37c59fa91da36e9ae53e6559e0a7921aef1ecba82ed619df3c7c61
+2019-10-11T10:13:02.763+0800	info	main/helper.go:497	InitChannelState create channel: smart contract=0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C  container=c594ac31da37c59fa91da36e9ae53e6559e0a7921aef1ecba82ed619df3c7c61
+
+2019-10-11T10:13:02.763+0800	info	main/helper.go:117	
+ http response: &{200  0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C} 
+
+
+2019-10-11T10:13:09.173+0800	info	main/handler.go:176	Get bucket info user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test
+2019-10-11T10:13:09.173+0800	info	main/state_channel.go:439	RPC GetIndexHash, container=c594ac31da37c59fa91da36e9ae53e6559e0a7921aef1ecba82ed619df3c7c61
+2019-10-11T10:13:09.219+0800	info	main/state_channel.go:465	RPC GetIndexHash result:  QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-11T10:13:09.219+0800	info	main/helper.go:584	GetUserObjects userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-11T10:13:09.233+0800	error	main/helper.go:256	GetFileWithBody ipfs get: QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7 open storge/QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7: no such file or directory
+
+2019-10-11T10:13:09.233+0800	error	main/helper.go:597	GetUserObjects get file body: open storge/QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7: no such file or directory
+
+2019-10-11T10:13:09.234+0800	error	main/helper.go:124	
+ http response: &{500 user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 get bucket=test info failed, open storge/QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7: no such file or directory } 
+
+
+2019-10-11T10:34:17.076+0800	info	main/handler.go:35	InitStoreContract user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6
+2019-10-11T10:34:17.109+0800	debug	main/cache.go:66	contract address cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 store contract address=0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C
+2019-10-11T10:34:17.109+0800	info	main/state_channel.go:366	RPC request parameter: CreateChannel 0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C
+2019-10-11T10:34:18.582+0800	info	main/state_channel.go:394	Create channel:  88fad0601ec0d904f4130d2817e6c851daac2bd55f7ead0a9d57ce0ebd850e25
+2019-10-11T10:34:18.582+0800	debug	main/object_cache.go:94	object cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 container=88fad0601ec0d904f4130d2817e6c851daac2bd55f7ead0a9d57ce0ebd850e25
+2019-10-11T10:34:18.582+0800	info	main/helper.go:504	InitChannelState create channel: smart contract=0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C  container=88fad0601ec0d904f4130d2817e6c851daac2bd55f7ead0a9d57ce0ebd850e25
+
+2019-10-11T10:34:18.582+0800	info	main/helper.go:117	
+ http response: &{200  0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C} 
+
+
+2019-10-11T10:34:23.921+0800	info	main/handler.go:176	Get bucket info user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test
+2019-10-11T10:34:23.921+0800	info	main/state_channel.go:439	RPC GetIndexHash, container=88fad0601ec0d904f4130d2817e6c851daac2bd55f7ead0a9d57ce0ebd850e25
+2019-10-11T10:34:23.942+0800	info	main/state_channel.go:465	RPC GetIndexHash result:  QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-11T10:34:23.942+0800	info	main/helper.go:591	GetUserObjects userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-11T10:34:23.942+0800	error	main/helper.go:256	GetFileWithBody create path: QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7 open ./storge/QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7: no such file or directory
+
+2019-10-11T10:34:23.942+0800	error	main/helper.go:604	GetUserObjects get file body: open ./storge/QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7: no such file or directory
+
+2019-10-11T10:34:23.942+0800	error	main/helper.go:124	
+ http response: &{500 user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 get bucket=test info failed, open ./storge/QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7: no such file or directory } 
+
+
+2019-10-11T10:34:54.408+0800	info	main/handler.go:99	Create bucket user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test
+2019-10-11T10:34:54.409+0800	info	main/state_channel.go:439	RPC GetIndexHash, container=88fad0601ec0d904f4130d2817e6c851daac2bd55f7ead0a9d57ce0ebd850e25
+2019-10-11T10:34:54.423+0800	info	main/state_channel.go:465	RPC GetIndexHash result:  QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-11T10:34:54.423+0800	info	main/helper.go:591	GetUserObjects userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-11T10:34:54.424+0800	error	main/helper.go:256	GetFileWithBody create path: QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7 open ./storge/QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7: no such file or directory
+
+2019-10-11T10:34:54.424+0800	error	main/helper.go:604	GetUserObjects get file body: open ./storge/QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7: no such file or directory
+
+2019-10-11T10:34:54.424+0800	error	main/helper.go:124	
+ http response: &{500 user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 create bucket=test failed, open ./storge/QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7: no such file or directory } 
+
+
+2019-10-11T10:41:06.923+0800	info	main/handler.go:35	InitStoreContract user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6
+2019-10-11T10:41:06.957+0800	debug	main/cache.go:66	contract address cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 store contract address=0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C
+2019-10-11T10:41:06.958+0800	info	main/state_channel.go:366	RPC request parameter: CreateChannel 0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C
+2019-10-11T10:41:08.396+0800	info	main/state_channel.go:394	Create channel:  336cf70b8b67e7f33de194b31b02c5d2bcc648afa8ab8581ddbca568db64754f
+2019-10-11T10:41:08.396+0800	debug	main/object_cache.go:94	object cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 container=336cf70b8b67e7f33de194b31b02c5d2bcc648afa8ab8581ddbca568db64754f
+2019-10-11T10:41:08.396+0800	info	main/helper.go:504	InitChannelState create channel: smart contract=0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C  container=336cf70b8b67e7f33de194b31b02c5d2bcc648afa8ab8581ddbca568db64754f
+
+2019-10-11T10:41:08.396+0800	info	main/helper.go:117	
+ http response: &{200  0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C} 
+
+
+2019-10-11T10:41:20.169+0800	info	main/handler.go:176	Get bucket info user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test
+2019-10-11T10:41:20.169+0800	info	main/state_channel.go:439	RPC GetIndexHash, container=336cf70b8b67e7f33de194b31b02c5d2bcc648afa8ab8581ddbca568db64754f
+2019-10-11T10:41:20.185+0800	info	main/state_channel.go:465	RPC GetIndexHash result:  QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-11T10:41:20.185+0800	info	main/helper.go:591	GetUserObjects userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-11T10:41:20.185+0800	error	main/helper.go:256	GetFileWithBody open file: QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7 open ./storge/QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7: no such file or directory
+
+2019-10-11T10:41:20.185+0800	error	main/helper.go:604	GetUserObjects get file body: open ./storge/QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7: no such file or directory
+
+2019-10-11T10:41:20.186+0800	error	main/helper.go:124	
+ http response: &{500 user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 get bucket=test info failed, open ./storge/QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7: no such file or directory } 
+
+
+2019-10-11T10:43:43.285+0800	info	main/handler.go:35	InitStoreContract user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6
+2019-10-11T10:43:43.310+0800	debug	main/cache.go:66	contract address cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 store contract address=0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C
+2019-10-11T10:43:43.310+0800	info	main/state_channel.go:366	RPC request parameter: CreateChannel 0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C
+2019-10-11T10:43:44.764+0800	info	main/state_channel.go:394	Create channel:  8200a05b0210a36de0a76f4724919f18280438e20d3de84a87960ed675f2a755
+2019-10-11T10:43:44.764+0800	debug	main/object_cache.go:94	object cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 container=8200a05b0210a36de0a76f4724919f18280438e20d3de84a87960ed675f2a755
+2019-10-11T10:43:44.764+0800	info	main/helper.go:504	InitChannelState create channel: smart contract=0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C  container=8200a05b0210a36de0a76f4724919f18280438e20d3de84a87960ed675f2a755
+
+2019-10-11T10:43:44.765+0800	info	main/helper.go:117	
+ http response: &{200  0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C} 
+
+
+2019-10-11T10:43:49.174+0800	info	main/handler.go:99	Create bucket user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test
+2019-10-11T10:43:49.175+0800	info	main/state_channel.go:439	RPC GetIndexHash, container=8200a05b0210a36de0a76f4724919f18280438e20d3de84a87960ed675f2a755
+2019-10-11T10:43:49.198+0800	info	main/state_channel.go:465	RPC GetIndexHash result:  QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-11T10:43:49.199+0800	info	main/helper.go:591	GetUserObjects userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-11T10:43:49.199+0800	error	main/helper.go:256	GetFileWithBody open file: QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7 open ./storge/QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7: no such file or directory
+
+2019-10-11T10:43:49.199+0800	error	main/helper.go:604	GetUserObjects get file body: open ./storge/QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7: no such file or directory
+
+2019-10-11T10:43:49.199+0800	error	main/helper.go:124	
+ http response: &{500 user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 create bucket=test failed, open ./storge/QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7: no such file or directory } 
+
+
+2019-10-11T10:45:58.742+0800	info	main/handler.go:35	InitStoreContract user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6
+2019-10-11T10:45:58.775+0800	debug	main/cache.go:66	contract address cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 store contract address=0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C
+2019-10-11T10:45:58.776+0800	info	main/state_channel.go:366	RPC request parameter: CreateChannel 0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C
+2019-10-11T10:46:00.244+0800	info	main/state_channel.go:394	Create channel:  7eb01946420014b747f687e04f6a3ea5b7719272b3662244170a603e7ef19283
+2019-10-11T10:46:00.244+0800	debug	main/object_cache.go:94	object cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 container=7eb01946420014b747f687e04f6a3ea5b7719272b3662244170a603e7ef19283
+2019-10-11T10:46:00.244+0800	info	main/helper.go:504	InitChannelState create channel: smart contract=0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C  container=7eb01946420014b747f687e04f6a3ea5b7719272b3662244170a603e7ef19283
+
+2019-10-11T10:46:00.244+0800	info	main/helper.go:117	
+ http response: &{200  0x68EBB2501ECd8C8Fe1Ec6302dD982EBd1518B38C} 
+
+
+2019-10-11T10:46:05.343+0800	info	main/handler.go:99	Create bucket user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test
+2019-10-11T10:46:05.343+0800	info	main/state_channel.go:439	RPC GetIndexHash, container=7eb01946420014b747f687e04f6a3ea5b7719272b3662244170a603e7ef19283
+2019-10-11T10:46:05.357+0800	info	main/state_channel.go:465	RPC GetIndexHash result:  QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-11T10:46:05.358+0800	info	main/helper.go:591	GetUserObjects userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-11T10:46:05.371+0800	debug	main/object_cache.go:75	object cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7 indexfile={"user":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","buckets":{"test":{"name":"test","files":{"1.txt":{"name":"1.txt","hash":"QmWdE8V7isXW3GAyjXSGBMV9fLvQbTB4fhTV7P4gQErMHk","owner":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","ispublic":false,"time":1570695343,"size":32,"filetype":false}},"folders":{},"index":["1.txt"],"time":1570695280}}}
+2019-10-11T10:46:05.371+0800	debug	main/helper.go:618	GetUserObjects  userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexcontent={"user":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","buckets":{"test":{"name":"test","files":{"1.txt":{"name":"1.txt","hash":"QmWdE8V7isXW3GAyjXSGBMV9fLvQbTB4fhTV7P4gQErMHk","owner":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","ispublic":false,"time":1570695343,"size":32,"filetype":false}},"folders":{},"index":["1.txt"],"time":1570695280}}}
+2019-10-11T10:46:05.382+0800	info	main/helper.go:732	UpdateDHTAndContract userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7 
+
+2019-10-11T10:46:05.383+0800	debug	main/helper.go:733	
+ UpdateDHTAndContract indexcontent={"user":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","buckets":{"test":{"name":"test","files":{"1.txt":{"name":"1.txt","hash":"QmWdE8V7isXW3GAyjXSGBMV9fLvQbTB4fhTV7P4gQErMHk","owner":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","ispublic":false,"time":1570695343,"size":32,"filetype":false}},"folders":{},"index":["1.txt"],"time":1570695280}}} 
+
+
+2019-10-11T10:46:05.383+0800	info	main/state_channel.go:405	RPC UpdateHash:  container=7eb01946420014b747f687e04f6a3ea5b7719272b3662244170a603e7ef19283 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-11T10:46:05.398+0800	info	main/state_channel.go:429	RPC Updatehash result:  
+2019-10-11T10:46:05.399+0800	debug	main/object_cache.go:75	object cache put success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7 indexfile={"user":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","buckets":{"test":{"name":"test","files":{"1.txt":{"name":"1.txt","hash":"QmWdE8V7isXW3GAyjXSGBMV9fLvQbTB4fhTV7P4gQErMHk","owner":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","ispublic":false,"time":1570695343,"size":32,"filetype":false}},"folders":{},"index":["1.txt"],"time":1570695280}}}
+2019-10-11T10:46:05.399+0800	info	main/helper.go:117	
+ http response: &{200  user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 create bucket=test success} 
+
+
+2019-10-11T10:46:15.181+0800	info	main/handler.go:176	Get bucket info user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test
+2019-10-11T10:46:15.182+0800	info	main/state_channel.go:439	RPC GetIndexHash, container=7eb01946420014b747f687e04f6a3ea5b7719272b3662244170a603e7ef19283
+2019-10-11T10:46:15.214+0800	info	main/state_channel.go:465	RPC GetIndexHash result:  QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-11T10:46:15.214+0800	info	main/helper.go:591	GetUserObjects userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-11T10:46:15.214+0800	debug	main/object_cache.go:108	object cache get success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7 indexfile={"user":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","buckets":{"test":{"name":"test","files":{"1.txt":{"name":"1.txt","hash":"QmWdE8V7isXW3GAyjXSGBMV9fLvQbTB4fhTV7P4gQErMHk","owner":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","ispublic":false,"time":1570695343,"size":32,"filetype":false}},"folders":{},"index":["1.txt"],"time":1570695280}}}
+2019-10-11T10:46:15.214+0800	info	main/helper.go:117	
+ http response: &{200  {"files":[{"name":"1.txt","hash":"QmWdE8V7isXW3GAyjXSGBMV9fLvQbTB4fhTV7P4gQErMHk","owner":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","ispublic":false,"time":1570695343,"size":32,"filetype":false}],"dir":null}} 
+
+
+2019-10-11T10:46:36.655+0800	info	main/handler.go:345	Get file user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test file=1.txt
+2019-10-11T10:46:36.655+0800	info	main/state_channel.go:439	RPC GetIndexHash, container=7eb01946420014b747f687e04f6a3ea5b7719272b3662244170a603e7ef19283
+2019-10-11T10:46:36.676+0800	info	main/state_channel.go:465	RPC GetIndexHash result:  QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-11T10:46:36.676+0800	info	main/helper.go:591	GetUserObjects userid=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7
+2019-10-11T10:46:36.677+0800	debug	main/object_cache.go:108	object cache get success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 indexhash=QmUZcS3GbknrqWLivFkBV7P5n6SSoSCMpsAJBL5tLpadD7 indexfile={"user":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","buckets":{"test":{"name":"test","files":{"1.txt":{"name":"1.txt","hash":"QmWdE8V7isXW3GAyjXSGBMV9fLvQbTB4fhTV7P4gQErMHk","owner":"0xcb8f035b48e81c79db5fadd32fae108b26c06ea6","ispublic":false,"time":1570695343,"size":32,"filetype":false}},"folders":{},"index":["1.txt"],"time":1570695280}}}
+2019-10-11T10:46:36.677+0800	info	main/handler.go:361	Download file user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test hash=QmWdE8V7isXW3GAyjXSGBMV9fLvQbTB4fhTV7P4gQErMHk
+2019-10-11T10:46:36.689+0800	info	main/handler.go:369	Download file success, user=0xcb8f035b48e81c79db5fadd32fae108b26c06ea6 bucket=test hash=QmWdE8V7isXW3GAyjXSGBMV9fLvQbTB4fhTV7P4gQErMHk
